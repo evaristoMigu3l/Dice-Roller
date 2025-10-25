@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    overflow-y: auto; /* adds vertical scroll */
+  overflow-x: hidden; /* hides horizontal scroll */
+  scrollbar-width: thin; /* for Firefox */
+  -ms-overflow-style: scrollbar; /* for Internet Explorer and Edge */   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#diceRoller{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font: 3rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#numDice{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+#programmName{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: grey;
+    
+
+   
+    
+}
+button{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 6rem;
+    height: 4.5rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
